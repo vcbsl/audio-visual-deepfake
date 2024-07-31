@@ -1,1 +1,1 @@
-# Audio-Visual-Deepfake-Deettcion-Localization
+# Audio-Visual-Deepfake-Detection-Localization
