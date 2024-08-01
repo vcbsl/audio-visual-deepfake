@@ -8,7 +8,6 @@
 - [Datasets](#datasets)
 - [Requirements](#requirements)
 - [Citation](#citation)
-- [Acknowledgements](#acknowledgements)
 - [License](#license)
 ## Overview
 In the digital age, the rise of deepfakes and synthetic media presents significant threats to societal and political integrity. Deepfakes that manipulate multiple modalities, such as audio and visual, are especially concerning due to their increased realism. Our project addresses this challenge by proposing a novel multi-modal attention framework based on recurrent neural networks (RNNs). This framework leverages contextual information to enhance deepfake detection and localization across audio-visual modalities.
@@ -49,9 +48,10 @@ We conducted thorough experimental validations on the following audio-visual dee
 Experiments
 ```
 python create_data.py
-python trimodal_attention_models.py
+python tri-lr-model.py
 ```
 ## Citation
+```
 @inproceedings{ssl-ijcb,
   title={Multi-Modal Deepfake Detection Using Attention-Based Fusion Framework},
   author={Vinaya Sree Katamneni and Ajita Rattani},
@@ -59,8 +59,7 @@ python trimodal_attention_models.py
   publisher    = {{IEEE}},
   year         = {2024}
 }
-
-## Acknowledgements
+```
 
 ### License
 This project is licensed under the terms of the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. The copyright of the images remains with the original owners.
