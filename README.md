@@ -63,13 +63,13 @@ We conducted thorough experimental validations on the following audio-visual dee
 - Pandas
 - h5py
 
-Experiments
+## Experiments
 ```
 python tri-lr-model.py
 ```
 ## Citation
 ```
-@inproceedings{ssl-ijcb,
+@inproceedings{ccma-ijcb,
   title={Multi-Modal Deepfake Detection Using Attention-Based Fusion Framework},
   author={Vinaya Sree Katamneni and Ajita Rattani},
   booktitle    = {{The IEEE International Joint Conference on Biometrics (IJCB)}},
