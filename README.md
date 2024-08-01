@@ -1,5 +1,4 @@
 
-readme_content = """
 # Multi-Modal Deepfake Detection Using Attention-Based Fusion Framework
 
 ## Overview
