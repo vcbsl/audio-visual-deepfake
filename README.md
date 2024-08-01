@@ -4,10 +4,14 @@ readme_content = """
 
 ## Overview
 In the digital age, the rise of deepfakes and synthetic media presents significant threats to societal and political integrity. Deepfakes that manipulate multiple modalities, such as audio and visual, are especially concerning due to their increased realism. Our project addresses this challenge by proposing a novel multi-modal attention framework based on recurrent neural networks (RNNs). This framework leverages contextual information to enhance deepfake detection and localization across audio-visual modalities.
+### Figure 1: Overview of the Proposed Model
+![Model Architecture](images/teaser.png)
+
 
 ## Methodology
 Our approach focuses on the attention-based fusion of heterogeneous data streams from different modalities, specifically audio and visual signals. The primary challenge lies in bridging the distributional modality gap, which can hinder effective data fusion. We address this challenge by applying attention mechanisms to multi-modal multisequence representations, allowing the model to learn the most relevant features for deepfake detection and localization.
-
+### Figure 2: Illustration of the proposed Multi-Modal Multi-Sequence Bi-modal Attention (MMMS-BA) model for audio-visual deepfake detection and localization
+![FakeAVCeleb Results](images/CCMA.png)
 ## Key Features
 - **Multi-Modal Data Fusion**: Utilizes attention mechanisms to integrate audio and visual data effectively.
 - **RNN-Based Framework**: Leverages the sequential nature of audio-visual data using recurrent neural networks.
@@ -26,5 +30,4 @@ We conducted thorough experimental validations on the following audio-visual dee
 ## Results
 Our framework's effectiveness was validated through comprehensive experiments on the aforementioned datasets. The results demonstrate our approach's superiority in both deepfake detection and localization, achieving state-of-the-art performance.
 
-## How to Use
-1. **Clone the repository**:
+
