@@ -19,12 +19,12 @@ Our approach focuses on the attention-based fusion of heterogeneous data streams
 ## Datasets
 We conducted thorough experimental validations on the following audio-visual deepfake datasets:
 
-| Dataset | Year | Tasks | Manipulated Modality | Manipulation Method | #Subjects |
-|---------|------|-------|----------------------|---------------------|-----------|
-| [FakeAVCeleb](https://github.com/DASH-Lab/FakeAVCeleb) | 2021 | Detection | Audio and Visual | Re-enactment | 500 |
-| [LAV-DF](https://github.com/ControlNet/LAV-DF) | 2022 | Detection and Localization | Audio and Visual | Content-driven | 153 |
-| [TVIL](https://github.com/ymhzyj/UMMAFormer) | 2023 | Detection and Localization | Audio and Visual | Inpainting forgery | N/A |
-| [AV-Deepfake1M](https://github.com/ControlNet/AV-Deepfake1M) | 2023 | Detection and Localization | Audio and Visual | Content-driven | 2068 |
+| Dataset | Year | Tasks | Manipulated Modality | Manipulation Method | 
+|---------|------|-------|----------------------|---------------------|
+| [FakeAVCeleb](https://github.com/DASH-Lab/FakeAVCeleb) | 2021 | Detection | Audio and Visual | Re-enactment |
+| [LAV-DF](https://github.com/ControlNet/LAV-DF) | 2022 | Detection and Localization | Audio and Visual | Content-driven | 
+| [TVIL](https://github.com/ymhzyj/UMMAFormer) | 2023 | Detection and Localization | Audio and Visual | Inpainting forgery | 
+| [AV-Deepfake1M](https://github.com/ControlNet/AV-Deepfake1M) | 2023 | Detection and Localization | Audio and Visual | Content-driven | 
 
 ## Results
 Our framework's effectiveness was validated through comprehensive experiments on the aforementioned datasets. The results demonstrate our approach's superiority in both deepfake detection and localization, achieving state-of-the-art performance.
