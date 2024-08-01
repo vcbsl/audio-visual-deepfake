@@ -14,11 +14,11 @@ In the digital age, the rise of deepfakes and synthetic media presents significa
 
 ## Limitations
  Current multi-modal deepfake detectors, which often rely on attention-based fusion of heterogeneous data streams, face several limitations:
-- Modality-Specific Features Not Utilized: The unique capabilities of each modality (audio and visual) are not fully leveraged in the fusion process.
-- Noise Sensitivity: Noise in one modality can degrade the overall performance of the multi-modal framework.
-- Lack of Explicit Modeling of Inter-Modality Interactions: The relationship between different modalities, such as audio, full face, and lip movements, is not explicitly modeled, leading to inadequate capture of correlation and dependencies.
-- Insufficient Contextual Information Utilization: Current methods do not incorporate consistent and meaningful patterns across sequences within and across modalities.
-- Lack of Integrated Localization Mechanisms: Most approaches focus solely on detection without providing localization of manipulated segments.
+- **Modality-Specific Features Not Utilized**: The unique capabilities of each modality (audio and visual) are not fully leveraged in the fusion process.
+- **Noise Sensitivity**: Noise in one modality can degrade the overall performance of the multi-modal framework.
+-** Lack of Explicit Modeling of Inter-Modality Interactions**: The relationship between different modalities, such as audio, full face, and lip movements, is not explicitly modeled, leading to inadequate capture of correlation and dependencies.
+- **Insufficient Contextual Information Utilization**: Current methods do not incorporate consistent and meaningful patterns across sequences within and across modalities.
+- **Lack of Integrated Localization Mechanisms**: Most approaches focus solely on detection without providing localization of manipulated segments.
 
 Our project proposes a recurrent neural network-based multi-modal multi-sequence attention framework, called Multi-Modal Multi-Sequence Bi-Modal Attention (MMMS-BA). This framework addresses the aforementioned limitations by focusing on relevant features across modality pairs and leveraging attention from neighboring sequences and multi-modal representations for enhanced learning. It performs both deepfake detection and localization using classification and regression heads. Figure 1 provides details on the overview of the approach.
 
