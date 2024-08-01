@@ -18,13 +18,13 @@ In the digital age, the rise of deepfakes and synthetic media presents significa
 - **Noise Sensitivity**: Noise in one modality can degrade the overall performance of the multi-modal framework.
 - **Lack of Explicit Modeling of Inter-Modality Interactions**: The relationship between different modalities, such as audio, full face, and lip movements, is not explicitly modeled, leading to inadequate capture of correlation and dependencies.
 - **Missing Contextual Information Utilization**: Current methods do not incorporate consistent and meaningful patterns across sequences within and across modalities.
-- **Lack of Integrated Localization Mechanisms**: Most approaches focus solely on detection without localizing manipulated segments.
+- **Lack of Integrated Deepfake Detection and Localization Mechanisms**: Most approaches focus solely on detection without localizing manipulated segments.
   
-Our project proposes a recurrent neural network-based multi-modal multi-sequence attention framework, called Multi-Modal Multi-Sequence Bi-Modal Attention (MMMS-BA). This framework addresses the aforementioned limitations by focusing on relevant features across modality pairs and leveraging attention from neighboring sequences and multi-modal representations for enhanced learning. It performs both deepfake detection and localization using classification and regression heads. Figure 1 provides details on the overview of the approach.
+Our project proposes a recurrent neural network-based multi-modal multi-sequence attention framework, called Multi-Modal Multi-Sequence Bi-Modal Attention (MMMS-BA). This framework addresses the aforementioned limitations by focusing on relevant features across modality pairs and leveraging attention from neighboring sequences and multi-modal representations for enhanced learning. It performs both deepfake detection and localization using classification and regression heads. Figure 1 provides an overview of the proposed approach.
 
 
 ![Model Architecture](images/teaser.png)
-### Figure 1: Overview of the Proposed Model
+### Figure 1: Overview of our proposed audio-visual deepfake detection and localization framework. The audio-visual sequences extracted from the input video are processed using our proposed MMMS-BA approach for deepfake detection and localization
 
 ## Key Contributions
 - **MMMS-BA Framework**: Introduced a novel contextual cross-attention mechanism for audio-visual deepfake detection and localization.
@@ -53,7 +53,6 @@ We conducted thorough experimental validations on the following audio-visual dee
 | [TVIL](https://github.com/ymhzyj/UMMAFormer) | 2023 | Detection and Localization | Audio and Visual | Inpainting forgery | 
 | [AV-Deepfake1M](https://github.com/ControlNet/AV-Deepfake1M) | 2023 | Detection and Localization | Audio and Visual | Content-driven | 
 ## Requirements
-- Linux
 - Python 
 - PyTorch 
 - TensorBoard
