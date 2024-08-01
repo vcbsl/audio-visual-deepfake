@@ -1,1 +1,30 @@
-# Audio-Visual-Deepfake-Detection-Localization
+
+readme_content = """
+# Multi-Modal Deepfake Detection Using Attention-Based Fusion Framework
+
+## Overview
+In the digital age, the rise of deepfakes and synthetic media presents significant threats to societal and political integrity. Deepfakes that manipulate multiple modalities, such as audio and visual, are especially concerning due to their increased realism. Our project addresses this challenge by proposing a novel multi-modal attention framework based on recurrent neural networks (RNNs). This framework leverages contextual information to enhance deepfake detection and localization across audio-visual modalities.
+
+## Methodology
+Our approach focuses on the attention-based fusion of heterogeneous data streams from different modalities, specifically audio and visual signals. The primary challenge lies in bridging the distributional modality gap, which can hinder effective data fusion. We address this challenge by applying attention mechanisms to multi-modal multisequence representations, allowing the model to learn the most relevant features for deepfake detection and localization.
+
+## Key Features
+- **Multi-Modal Data Fusion**: Utilizes attention mechanisms to integrate audio and visual data effectively.
+- **RNN-Based Framework**: Leverages the sequential nature of audio-visual data using recurrent neural networks.
+- **Improved Detection and Localization**: Demonstrates superior performance compared to existing methods, with a 3.47% increase in detection accuracy and a 2.05% increase in localization precision.
+
+## Datasets
+We conducted thorough experimental validations on the following audio-visual deepfake datasets:
+
+| Dataset | Year | Tasks | Manipulated Modality | Manipulation Method | #Subjects |
+|---------|------|-------|----------------------|---------------------|-----------|
+| [FakeAVCeleb](https://github.com/DASH-Lab/FakeAVCeleb) | 2021 | Detection | Audio and Visual | Re-enactment | 500 |
+| [LAV-DF](https://github.com/ControlNet/LAV-DF) | 2022 | Detection and Localization | Audio and Visual | Content-driven | 153 |
+| [TVIL](https://github.com/ymhzyj/UMMAFormer) | 2023 | Detection and Localization | Audio and Visual | Inpainting forgery | N/A |
+| [AV-Deepfake1M](https://github.com/ControlNet/AV-Deepfake1M) | 2023 | Detection and Localization | Audio and Visual | Content-driven | 2068 |
+
+## Results
+Our framework's effectiveness was validated through comprehensive experiments on the aforementioned datasets. The results demonstrate our approach's superiority in both deepfake detection and localization, achieving state-of-the-art performance.
+
+## How to Use
+1. **Clone the repository**:
