@@ -22,8 +22,9 @@ In the digital age, the rise of deepfakes and synthetic media presents significa
 
 Our project proposes a recurrent neural network-based multi-modal multi-sequence attention framework, called Multi-Modal Multi-Sequence Bi-Modal Attention (MMMS-BA). This framework addresses the aforementioned limitations by focusing on relevant features across modality pairs and leveraging attention from neighboring sequences and multi-modal representations for enhanced learning. It performs both deepfake detection and localization using classification and regression heads. Figure 1 provides details on the overview of the approach.
 
-### Figure 1: Overview of the Proposed Model
+
 ![Model Architecture](images/teaser.png)
+### Figure 1: Overview of the Proposed Model
 
 ## Key Contributions
 - MMMS-BA Framework: Introduced a novel contextual cross-attention mechanism for audio-visual deepfake detection and localization.
