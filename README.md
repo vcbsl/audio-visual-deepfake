@@ -10,7 +10,7 @@
 - [Citation](#citation)
 - [License](#license)
 ## Overview
-In the digital age, the rise of deepfakes and synthetic media presents significant threats to societal and political integrity. Due to their increased realism, deepfakes manipulating multiple modalities, such as audio and visual, are especially concerning. Existing unimodal deepfake detectors are primarily designed to detect a single type of manipulation, such as visual, acoustic, and text. Current attention-based fusion approaches for audio-visual deepfake detection stem from the heterogeneous nature of audio and visual signals. Consequently, the unique capabilities of each modality (modality-specific features) are not utilized effectively in the fusion process. 
+In the digital age, the rise of deepfakes and synthetic media presents significant threats to societal and political integrity. Due to their increased realism, deepfakes manipulating multiple modalities, such as audio and visual, are especially concerning. Existing unimodal deepfake detectors are primarily designed to detect a single type of manipulation, such as visual, acoustic, and text. Consequently, multi-modal deepfake detectors are being investigated to detect and localize multi-modal manipulations. Current approaches for audio-visual deepfake detection utilizing attention-based fusion  stem from the heterogeneous nature of audio and visual signals. Consequently, the unique capabilities of each modality (modality-specific features) are not utilized effectively in the fusion process. 
 
 ## Limitations of existing multi-modal deepfake detectors
  Current multi-modal deepfake detectors, which often rely on attention-based fusion of heterogeneous data streams, face several limitations:
