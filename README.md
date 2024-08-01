@@ -6,7 +6,7 @@
 - [Methodology](#methodology)
 - [Key Features](#key-features)
 - [Datasets](#datasets)
-- [Results](#results)
+- [Requirements](#requirements)
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
@@ -15,15 +15,16 @@ In the digital age, the rise of deepfakes and synthetic media presents significa
 ### Figure 1: Overview of the Proposed Model
 ![Model Architecture](images/teaser.png)
 
+## Key Features
+- **Multi-Modal Data Fusion**: Utilizes attention mechanisms to integrate audio and visual data effectively.
+- **RNN-Based Framework**: Leverages the sequential nature of audio-visual data using recurrent neural networks.
+- **Improved Detection and Localization**: Demonstrates superior performance compared to existing methods, with a 3.47% increase in detection accuracy and a 2.05% increase in localization precision.
 
 ## Methodology
 Our approach focuses on the attention-based fusion of heterogeneous data streams from different modalities, specifically audio and visual signals. The primary challenge lies in bridging the distributional modality gap, which can hinder effective data fusion. We address this challenge by applying attention mechanisms to multi-modal multisequence representations, allowing the model to learn the most relevant features for deepfake detection and localization.
 ### Figure 2: Illustration of the proposed Multi-Modal Multi-Sequence Bi-modal Attention (MMMS-BA) model for audio-visual deepfake detection and localization
 ![FakeAVCeleb Results](images/CCMA.png)
-## Key Features
-- **Multi-Modal Data Fusion**: Utilizes attention mechanisms to integrate audio and visual data effectively.
-- **RNN-Based Framework**: Leverages the sequential nature of audio-visual data using recurrent neural networks.
-- **Improved Detection and Localization**: Demonstrates superior performance compared to existing methods, with a 3.47% increase in detection accuracy and a 2.05% increase in localization precision.
+
 
 ## Datasets
 We conducted thorough experimental validations on the following audio-visual deepfake datasets:
@@ -34,11 +35,30 @@ We conducted thorough experimental validations on the following audio-visual dee
 | [LAV-DF](https://github.com/ControlNet/LAV-DF) | 2022 | Detection and Localization | Audio and Visual | Content-driven | 
 | [TVIL](https://github.com/ymhzyj/UMMAFormer) | 2023 | Detection and Localization | Audio and Visual | Inpainting forgery | 
 | [AV-Deepfake1M](https://github.com/ControlNet/AV-Deepfake1M) | 2023 | Detection and Localization | Audio and Visual | Content-driven | 
+## Requirements
+- Linux
+- Python 
+- PyTorch 
+- TensorBoard
+- CUDA 
+- NumPy
+- PyYaml
+- Pandas
+- h5py
 
-## Results
-Our framework's effectiveness was validated through comprehensive experiments on the aforementioned datasets. The results demonstrate our approach's superiority in both deepfake detection and localization, achieving state-of-the-art performance.
-
+Experiments
+```
+python create_data.py
+python trimodal_attention_models.py
+```
 ## Citation
+@inproceedings{ssl-ijcb,
+  title={Multi-Modal Deepfake Detection Using Attention-Based Fusion Framework},
+  author={Vinaya Sree Katamneni and Ajita Rattani},
+  booktitle    = {{The IEEE International Joint Conference on Biometrics (IJCB)}},
+  publisher    = {{IEEE}},
+  year         = {2024}
+}
 
 ## Acknowledgements
 
