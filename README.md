@@ -37,6 +37,7 @@ Our proposed framework aims to detect and localize deepfakes by focusing on the 
 
 
 <img src="images/CCMA.png" alt="MMMS-BA Model" width="5000" />
+
 ### Figure 2: Illustration of the proposed Multi-Modal Multi-Sequence Bi-modal Attention (MMMS-BA) model for audio-visual deepfake detection and localization
 
 ## Datasets
