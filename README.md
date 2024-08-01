@@ -1,5 +1,6 @@
 
 # Multi-Modal Deepfake Detection Using Attention-Based Fusion Framework
+[Research Paper](https://github.com/vcbsl/Audio-Visual-Deepfake-Detection-Localization/)
 
 ## Overview
 In the digital age, the rise of deepfakes and synthetic media presents significant threats to societal and political integrity. Deepfakes that manipulate multiple modalities, such as audio and visual, are especially concerning due to their increased realism. Our project addresses this challenge by proposing a novel multi-modal attention framework based on recurrent neural networks (RNNs). This framework leverages contextual information to enhance deepfake detection and localization across audio-visual modalities.
@@ -30,6 +31,11 @@ We conducted thorough experimental validations on the following audio-visual dee
 Our framework's effectiveness was validated through comprehensive experiments on the aforementioned datasets. The results demonstrate our approach's superiority in both deepfake detection and localization, achieving state-of-the-art performance.
 
 ## Citation
+
+## Acknowledgement
+
+### License
+This project is licensed under the terms of the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. The copyright of the images remains with the original owners.
 
 
 
