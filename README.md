@@ -34,9 +34,9 @@ Our project proposes a recurrent neural network-based multi-modal multi-sequence
 ## Methodology
 Our proposed framework aims to detect and localize deepfakes by focusing on the relationship between audio, visual and lip movement sequences by harnessing the information embedded within each modality and across their intersection. Figure 2 illustrates the step-by step process involved in our MMMS-BA which includes feature extraction and processing, and classification and regression heads for deepfake detection and localization. Considering multi-modal information i.e.full visual face, visual lip sequence, and audio of the sequences, and feeding it into three separate bi-directional Gated Recurrent Units (GRU). This is followed by a dense (fully-connected) operation which is shared across the sequences (one each for audio,full visual face, and visual lip sequence). Multi-modal attention is applied to the outputs of the dense layers. The objective is to learn the joint association between the multiple modalities and the sequences to emphasize the features by paying more attention to these. A bi-modal attention framework is employed, where an attention function is applied to the representations of pairwise modalities i.e.,full visual face-audio, audio-visual lip, and visual lip-full visual face. Finally, the outputs of pairwise attentions along with the representations are concatenated and passed to the classification head for detetcion and regression head for loclaization.
 
-### Figure 2: Illustration of the proposed Multi-Modal Multi-Sequence Bi-modal Attention (MMMS-BA) model for audio-visual deepfake detection and localization
-![FakeAVCeleb Results](images/CCMA.png)
 
+![FakeAVCeleb Results](images/CCMA.png)
+### Figure 2: Illustration of the proposed Multi-Modal Multi-Sequence Bi-modal Attention (MMMS-BA) model for audio-visual deepfake detection and localization
 
 ## Datasets
 We conducted thorough experimental validations on the following audio-visual deepfake datasets:
