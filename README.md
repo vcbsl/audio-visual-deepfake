@@ -16,7 +16,7 @@ In the digital age, the rise of deepfakes and synthetic media presents significa
  Current multi-modal deepfake detectors, which often rely on attention-based fusion of heterogeneous data streams, face several limitations:
 - **Modality-Specific Features Not Utilized**: The unique capabilities of each modality (audio and visual) are not fully leveraged in the fusion process.
 - **Noise Sensitivity**: Noise in one modality can degrade the overall performance of the multi-modal framework.
--** Lack of Explicit Modeling of Inter-Modality Interactions**: The relationship between different modalities, such as audio, full face, and lip movements, is not explicitly modeled, leading to inadequate capture of correlation and dependencies.
+- **Lack of Explicit Modeling of Inter-Modality Interactions**: The relationship between different modalities, such as audio, full face, and lip movements, is not explicitly modeled, leading to inadequate capture of correlation and dependencies.
 - **Insufficient Contextual Information Utilization**: Current methods do not incorporate consistent and meaningful patterns across sequences within and across modalities.
 - **Lack of Integrated Localization Mechanisms**: Most approaches focus solely on detection without providing localization of manipulated segments.
 
