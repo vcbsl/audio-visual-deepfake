@@ -60,7 +60,6 @@ We conducted thorough experimental validations on the following audio-visual dee
 
 Experiments
 ```
-python create_data.py
 python tri-lr-model.py
 ```
 ## Citation
