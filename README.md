@@ -1,5 +1,5 @@
 
-# Multi-Modal Deepfake Detection Using Attention-Based Fusion Framework
+# Contextual Cross-Modal Attention for Audio-Visual Deepfake Detection and Localization
 [Research Paper](https://github.com/vcbsl/Audio-Visual-Deepfake-Detection-Localization/)
 ## Table of Contents
 - [Overview](#overview)
