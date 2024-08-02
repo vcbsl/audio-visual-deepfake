@@ -12,7 +12,7 @@
 ## Overview
 In the digital age, the rise of deepfakes and synthetic media presents significant threats to societal and political integrity. Due to their increased realism, deepfakes manipulating multiple modalities, such as audio and visual, are especially concerning. Existing unimodal deepfake detectors are primarily designed to detect a single type of manipulation, such as visual, acoustic, and text. Whereas, multi-modal deepfake detectors are being investigated to detect and localize multi-modal manipulations. Current approaches for audio-visual deepfake detection utilizing attention-based fusion  stem from the heterogeneous nature of audio and visual signals. Consequently, the unique capabilities of each modality (modality-specific features) are not utilized effectively in the fusion process. 
 
-## Limitations of existing multi-modal deepfake detectors
+## Limitations of Existing Multi-modal Deepfake Detectors
  Current multi-modal deepfake detectors, which often rely on attention-based fusion of heterogeneous data streams, face several limitations:
 - **Modality-Specific Features Not Utilized**: The unique capabilities of each modality (audio and visual) are not fully leveraged in the fusion process.
 - **Noise Sensitivity**: Noise in one modality can degrade the overall performance of the multi-modal framework.
